@@ -6,11 +6,10 @@ IF(NOT TARGET columnstore)
 ENDIF()
 
 include(ExternalProject)
-ExternalProject_Add(columnstore_engine
+ExternalProject_Add(columnstore_engine 
   SOURCE_DIR engine
   BINARY_DIR engine
-  CONFIGURE_COMMAND build/bootstrap
-  BUILD_ALWAYS    1
+  CONFIGURE_COMMAND build/bootstrap --prefix=${CMAKE_INSTALL_PREFIX}
   )
 
 ADD_DEPENDENCIES(columnstore columnstore_engine) 
