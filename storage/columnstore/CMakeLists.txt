@@ -1,5 +1,5 @@
 MYSQL_ADD_PLUGIN(columnstore STORAGE_ENGINE
-    MODULE_ONLY MODULE_OUTPUT_NAME engine/dbcon/mysql/.libs/libcalmysql)
+    MODULE_ONLY MODULE_OUTPUT_NAME engine/dbcon/mysql/.libs/libcalmysql.so)
 
 IF(NOT TARGET columnstore)
   RETURN()
