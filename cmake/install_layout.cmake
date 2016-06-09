@@ -89,7 +89,7 @@ IF(UNIX)
   ELSEIF(INSTALL_LAYOUT MATCHES "SVR4")
     SET(default_prefix "/opt/mysql/mysql")
   ELSE()
-    SET(default_prefix "/usr/local/mysql")
+    SET(default_prefix "/usr/local/mariadb/columnstore")
   ENDIF()
   IF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
     SET(CMAKE_INSTALL_PREFIX ${default_prefix}
