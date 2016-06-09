@@ -234,6 +234,7 @@ storage/mroonga/vendor/groonga/src/suggest/groonga-suggest-create-dataset
 storage/mroonga/mysql-test/mroonga/storage/r/information_schema_plugins.result
 storage/mroonga/mysql-test/mroonga/storage/r/variable_version.result
 storage/columnstore/columnstore_engine-prefix
+storage/columnstore/engine-bin
 # C and C++
 
 # Compiled Object files
