@@ -1,0 +1,3 @@
+[submodule "mariadb-columnstore-engine"]
+	path = mariadb-columnstore-engine
+	url = https://github.com/mariadb-corporation/mariadb-columnstore-engine
